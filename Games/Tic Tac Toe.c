@@ -80,7 +80,7 @@ void play(char symbol[],int count)//taking input from users
 	{
 		printf("\n\nPlayer %d's turn - Enter the position: ",(count%2));
 		scanf("%d",&choice);
-		while(symbol[choice-1]=='X'||symbol[choice-1]=='O')
+		while((int)symbol[choice-1]<49||(int)symbol[choice-1]>57)
 		{
 			printf("Enter valid position: ");
 			scanf("%d",&choice);
