@@ -1,4 +1,4 @@
-                                     Codes on simple Artificial Intelligence concepts
+# Codes on simple Artificial Intelligence concepts
 
 The Description of the respective codes are as follows:
 
